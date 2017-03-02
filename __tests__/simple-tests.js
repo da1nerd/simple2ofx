@@ -9,7 +9,7 @@ const testdata = require('../lib/testdata');
 
 describe('Simple', () => {
     it('should convert simple\'s json transactions to ofx', () => {
-        let newofx = json2ofx.convert(testdata.json);
+        let newofx = json2ofx.convert(testdata.json, 12345678);
         expect(newofx).toEqual(testdata.ofx);
     });
 });
