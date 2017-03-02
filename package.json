@@ -6,12 +6,16 @@
   "scripts": {
     "test": "jest"
   },
+  "bin": {
+    "simpleofx": "index.js"
+  },
   "author": "Joel Lonbeck <joel@neutrinographics.com>",
   "license": "MIT",
   "devDependencies": {
     "jest": "^19.0.2"
   },
   "dependencies": {
-    "ofx": "^0.4.0"
+    "ofx": "^0.4.0",
+    "yargs": "^6.6.0"
   }
 }
