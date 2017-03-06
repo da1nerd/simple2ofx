@@ -1,7 +1,7 @@
-'use strict';
+#! /usr/bin/env node
 
-const fs = require('fs');
-const json2ofx = require('./lib/json2ofx');
+var fs = require('fs');
+var json2ofx = require('./lib/json2ofx');
 
 var argv = require('yargs')
     .usage('Usage: simpleofx -a [account number] -f [input file] -o [output file]')

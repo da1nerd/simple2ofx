@@ -1,13 +1,13 @@
 {
   "name": "simple2ofx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to convert Simple.com transactions to ofx.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "bin": {
-    "simpleofx": "index.js"
+    "simple2ofx": "index.js"
   },
   "author": "Joel Lonbeck <joel@neutrinographics.com>",
   "license": "MIT",
