@@ -1,5 +1,5 @@
 {
-  "name": "simple-ofx",
+  "name": "simple2ofx",
   "version": "1.0.0",
   "description": "A library to convert Simple.com transactions to ofx.",
   "main": "index.js",
