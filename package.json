@@ -6,11 +6,19 @@
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neutrinog/simple2ofx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neutrinog/simple2ofx/issues"
+  },
   "bin": {
     "simple2ofx": "index.js"
   },
-  "author": "Joel Lonbeck <joel@neutrinographics.com>",
+  "author": "Joel Lonbeck <joel@neutrinographics.com>  (http://neutrinographics.com)",
   "license": "MIT",
+  "homepage": "https://github.com/neutrinog/simple2ofx",
   "devDependencies": {
     "jest": "^19.0.2"
   },
